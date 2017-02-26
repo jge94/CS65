@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">InYourFace</string>
+
+    <string name="photo_preference">Photo Settings</string>
+    <string name="photo_setting_title">Set Photo</string>
+    <string name="photo_setting_summary">Upload photos for analysis</string>
+    <string name="authentication_preference">Authentication Settings</string>
+    <string name="authentication_title">Turn on Authentication</string>
+    <string name="authentication_summary">Photos taken automatically to authenticate identity</string>
+
+    <string name="demo_preference">Demo Preference</string>
+    <string name="demo_setting_title">Demo Button</string>
+    <string name="demo_setting_summary">Demo for Presentation</string>
+
+    <string name="misc_pref">Misc.</string>
+    <string name="webpage_title">Webpage</string>
+    <string name="webpage_address">http://iyfandroidapp.weebly.com/</string>
+
+    <string name="profile_pic">Upload Your Picture</string>
+    <string name="change_pic_button">Change</string>
+
+    <string name="photo_name">photo.png</string>
+
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+</resources>
