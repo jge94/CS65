@@ -43,10 +43,12 @@
     <PreferenceCategory
         android:title="@string/demo_preference">
 
-        <CheckBoxPreference
+        <PreferenceScreen
             android:key="demo_checkbox"
             android:title="@string/demo_setting_title"
             android:summary="@string/demo_setting_summary" />
+        <intent android:action="android.intent.action.DemoActivity"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory

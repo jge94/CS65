@@ -231,7 +231,7 @@ public class PhotoActivity extends AppCompatActivity {
         catch (IOException e)   // if there is no pictures saved
         {
             // use default pictures
-            mImageView.setImageResource(R.drawable.default_pic);
+            mImageView.setImageResource(R.drawable.profile_photo);
         }
     }
 

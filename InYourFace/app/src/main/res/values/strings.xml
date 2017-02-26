@@ -8,8 +8,8 @@
     <string name="authentication_title">Turn on Authentication</string>
     <string name="authentication_summary">Photos taken automatically to authenticate identity</string>
 
-    <string name="demo_preference">Demo Preference</string>
-    <string name="demo_setting_title">Demo Button</string>
+    <string name="demo_preference">Demo Authentication</string>
+    <string name="demo_setting_title">Demo authentication</string>
     <string name="demo_setting_summary">Demo for Presentation</string>
 
     <string name="misc_pref">Misc.</string>
