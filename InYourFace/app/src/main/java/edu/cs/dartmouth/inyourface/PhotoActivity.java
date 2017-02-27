@@ -167,7 +167,7 @@ public class PhotoActivity extends AppCompatActivity {
 
 
     /*
-     * When activities get returnedd
+     * When activities get returned
      */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
@@ -212,6 +212,7 @@ public class PhotoActivity extends AppCompatActivity {
             }
         }// end else if
 
+        savePicture();
     }
 
     // --------------- Self Defined Functions -----------------
@@ -240,6 +241,7 @@ public class PhotoActivity extends AppCompatActivity {
      */
     private void savePicture()
     {
+        Log.d("DEBUG", "in save picture");
         // build and save into the pictures
         mImageView.buildDrawingCache();
         Bitmap bmap = mImageView.getDrawingCache();
